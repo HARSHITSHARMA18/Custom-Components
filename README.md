@@ -1,4 +1,4 @@
 # Custom Componets
 
-The name of repo is silly to avoid the task code getting copied. 🙌🏻
+The name of repo is silly just to avoid the task code getting copied. 🙌🏻
 
