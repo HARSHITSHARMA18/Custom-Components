@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+body{
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  
+}
+
+
+
+/* NAVBAR */
+
+.navbar{
+  background-color: #2F302C;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+  
+
+}
+
+
+.nav-main {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center; 
+  
+  
+  
+}
+
+span{
+  color: white;
+}
+
+
+.nav-items{
+  margin-left: 1rem;
+  font-size: 0.8rem;
+}
+
+
+.options{
+  width: 4rem;
+  margin-left: 1rem;
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 0.8rem;
+  background-color: #2F302C;
+  
+}
+
+/* option{
+  background-color: #2F302C;
+} */
+
+input{
+
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  background: transparent;
+  width: 7rem;
+  
+}
+
+.seacrh-box{
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center;
+}
+
+
+.logo-icon{
+  width: 5rem;
+
+}
+
+.search-icon{
+  margin: 0.5rem;
+}
+
+
+
+/* HERO SECTION  */
+
+.Hero-section{
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+  padding: 4rem;
+}
+
+h1{
+  font-weight: 900;
+  font-size: 3rem;
+  margin: 0;
+}
+
+
+
+
+
+/* CAROUSEL */
+
+
+.cards-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.carousel-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.4s ease;
+
+} 
+
+.carousel{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+
+img {
+  width: 100%;
+
+  border-radius: 0.6rem;
+
+  position: relative;
+
+
+}
+
+.card{
+  display: inline-block;
+}
+
+
+
+.carousel-cards .description {
+  display: none; 
+}
+
+.carousel-cards div:nth-child(3) .description {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: #0e0d0da4;
+  border-bottom-left-radius:0.6rem;
+  border-bottom-right-radius: 0.6rem;
+  bottom: 4.4rem;
+  color:white;  
+
+}
+
+@media  (425px <=width<600px ) {
+  img {
+    width: 90%;
+  }
+  .navbar{
+    width: 100vh;
+  }
+
+}
+
+
+.controls{
+  padding: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+/* FOOTER */
+.footer{
+  position: relative;
+  top: 50rem;
+  text-align: center;
+  color: gray;
+}
+
+
+
+
+
+
+
+
